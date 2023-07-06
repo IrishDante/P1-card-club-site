@@ -1,3 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#header-style{
+    background: rgb(186, 216, 255);
+    height: 10vh;
+    width: 100vw;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
@@ -9,18 +21,21 @@ a:link{
 }
 
 h1{
+    margin-top: 1%;
+    margin-left: 2%;
     text-transform: uppercase;
-    color:black;
+    color:white;
     float:left;
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 
 #menu li{
-    font-size: x-large;
+    font-size: xx-large;
     margin-right: 5%;
     margin-top: 2%;
     float:right;
     list-style-type: none;
+    color:white;
 }
 
 footer{
@@ -29,7 +44,15 @@ footer{
 
 }
 
+#hero-outer {
+    height: 60vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
 #hero-image{
-    width: 100%;
-    background: url(assets/images/kidsclubbanner.png);
+    height: 60vh;
+    width: 100vw;
+    background: url(../images/kidsclubbanner.png) no-repeat center center;
 }
