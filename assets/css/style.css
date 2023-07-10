@@ -16,7 +16,7 @@ body{
     color: #3a3a3a;
 }
 
-a:link{
+header a{
     text-decoration: none;
 }
 
@@ -38,6 +38,14 @@ h1{
     color:white;
 }
 
+li a{
+    color: white;
+}
+
+li a:hover{
+    color: maroon;
+}
+
 footer{
     height:10%;
     text-align: center;
@@ -54,5 +62,5 @@ footer{
 #hero-image{
     height: 60vh;
     width: 100vw;
-    background: url(../images/kidsclubbanner.png) no-repeat center center;
+    background: url(../images/card-players.jpg) no-repeat center center;
 }
