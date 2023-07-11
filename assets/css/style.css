@@ -57,7 +57,7 @@ h1{
 }
 
 footer{
-    height:10%;
+    height:150px;
     text-align: center;
 }
 
@@ -77,14 +77,37 @@ footer{
     height:100%;
 }
 
-footer{
-    height:150px;
-}
-
 .external-sites{
     font-size: xx-large;
     margin: 0%;
     padding: 20px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid greenyellow;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label{
+    padding: 8px 8px 8px 0px;
+    display: inline-block;
+}
+
+input[type=submit]{
+    background-color: greenyellow;
+    color: aliceblue;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+}
+
+input[type=submit]:hover {
+    background-color: red;
 }
 
 @media screen and (max-width: 900px){
