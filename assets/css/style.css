@@ -53,6 +53,7 @@ h1{
 .video{
     width:1080px;
     height: 608px;
+    border: none;
 }
 
 footer{
