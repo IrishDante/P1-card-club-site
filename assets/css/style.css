@@ -50,6 +50,11 @@ h1{
     color:rgb(226, 43, 113);
 }
 
+.video{
+    width:1080px;
+    height: 608px;
+}
+
 footer{
     height:10%;
     text-align: center;
@@ -71,12 +76,28 @@ footer{
     height:100%;
 }
 
+footer{
+    height:150px;
+}
+
+.external-sites{
+    font-size: xx-large;
+    margin: 0%;
+    padding: 20px;
+}
+
 @media screen and (max-width: 900px){
     .menu li{
         width:100%;
+        padding:0px 10px;
     }
 
     #hero-image{
-        width:100vw;
+        height:50vh;
+    }
+
+    .video{
+        width: 100vw;
+        height: 56vh;
     }
 }
