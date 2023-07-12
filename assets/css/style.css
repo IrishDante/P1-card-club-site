@@ -83,10 +83,10 @@ footer{
     padding: 20px;
 }
 
-input[type=text]{
-    width: 100%;
-    padding: 8px;
-    border: 1px solid greenyellow;
+input[type=text], [type=email]{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid darkslategray;
     border-radius: 4px;
     resize: vertical;
 }
@@ -97,7 +97,7 @@ label{
 }
 
 input[type=submit]{
-    background-color: greenyellow;
+    background-color: orange;
     color: aliceblue;
     padding: 8px 20px;
     border: none;
