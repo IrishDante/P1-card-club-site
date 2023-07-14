@@ -51,3 +51,25 @@ Errors in the CSS existed early into the project but were removed as my familiar
 
 ## Known Bugs
 Currently when the site is viewed on mobile devices the navigation menu is shown in reverse order.
+
+# Deployment
+
+The site is deployed to GitHub pages. The steps to deploy were the following:
+ - In the [GitHub repositry](https://github.com/IrishDante/P1-card-club-site/tree/main) select settings.
+ - In settings on the left side bar select pages from the Code and automation section.
+ - Under Build and deployment select to publish from the main branch.
+
+The live page can be found at [This Link.](https://irishdante.github.io/P1-card-club-site/)
+
+# Credits
+
+## Content
+ - Icon in the footer is taken from [Font Awesome](https://fontawesome.com/)
+ - Structure for this read me file from [Code institute sample read me](https://github.com/Code-Institute-Solutions/readme-template#readme)
+
+## Media
+ - Hero Image and video are both created and owned by me.
+
+## Code assistance
+ - [W3 Schools](https://www.w3schools.com/) was used to help learn and trouble shoot features on the page for both HTML and CSS
+ - [Code Institute](https://learn.codeinstitute.net/dashboard) was used to learn fundamentals.
