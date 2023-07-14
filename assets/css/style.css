@@ -38,7 +38,6 @@ h1{
 .menu a{
     display:block;
     padding: 30px 20px;
-    background-color:none;
     text-align: center;
     color: #2b2d42;
     text-decoration: none;
@@ -46,7 +45,7 @@ h1{
 }
 
 .menu a:hover{
-    background-color: rgba(256,256,256,.25);
+    background-color: rgba(255,255,255,.25);
     color:#d90429;
 }
 
@@ -103,7 +102,6 @@ input[type=submit]{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    float: center;
 }
 
 input[type=submit]:hover {
