@@ -11,8 +11,7 @@ The site is built to provide access to a mailing list and to also feature conten
     - The navigation bar is included on all pages of the website, it included links for the Home Page, Join Page, and the Video Page.
     - The Dublin Card Club logo text can be clicked in order to return to the home page.
     - The Navigation bar is designed to be responsive to different device sizes, changing format for small screens.
-  
-      /*include image for nav bar*/
+
 - __Landing Page__
     - The landing page is quite simple featuring a hero image which will scale to the users device size showing players from the local community.
  
@@ -30,3 +29,14 @@ The site is built to provide access to a mailing list and to also feature conten
 
   Stylistically converting the site to a single scrolling page could be more visually interesting for users.
   Adding more social media links as the club grows would be useful.
+
+# Testing
+
+Throughout development of the site I consistently checked to make sure that code was functioning as intended.
+The site has been tested on chrome, and edge for Windows 10, as well as multiple browsers on Android (Facebook inapp, Chrome).
+
+Errors in the CSS existed early into the project but were removed as my familiarity with the language improved.
+
+## Validator Testing
+ - ### HTML
+  - [Home Page]https://validator.w3.org/nu/?doc=https%3A%2F%2Firishdante.github.io%2FP1-card-club-site
